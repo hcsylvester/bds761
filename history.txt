@@ -1,0 +1,116 @@
+    1  pwd
+    2  cd /
+    3  pwd
+    4  ls
+    5  ls bin
+    6  ls | grep mkdir
+    7  ls /bin | grep mkdir
+    8  cd bin
+    9  ls | mkdir
+   10  ls | grep mkdir
+   11  cd ..
+   12  cd bin ; ls | grep mkdir
+   13  cd /
+   14  ls
+   15  ls -a
+   16  ll 
+   17  ll -h
+   18  ls dev
+   19  ls /dev
+   20  echo 1 > tty
+   21  echo 1 > dev/tty
+   22  ls | /dev | grep std
+   23  ls /dev | grep std
+   24  ll /dev | grep std
+   25  echo hello | cat
+   26  echo hello
+   27  ls home
+   28  ls
+   29  cat /etc/hostname
+   30  cat /proc/cgroup
+   31  cat /proc/cgroups
+   32  ls -l
+   33  cd /home/hunter_sylvester1109/
+   34  cd -
+   35  cd ~
+   36  cd ..
+   37  cd .
+   38  cd ~
+   39  pwd
+   40  ls /proc/ | grep *.py
+   41  clear
+   42  mkdir ./MyCodes/Python
+   43  mkdir ~/MyCodes/Python
+   44  mkdir -p ~/MyCodes/Python
+   45  ls
+   46  ls MyCodes/
+   47  pwd
+   48  ls ./MyCodes/
+   49  rmdir MyCodes/Python/
+   50  ls MyCodes/
+   51  vi
+   52  cd MyCodes/
+   53  echo 1 > test.txt
+   54  ls
+   55  cat test.txt
+   56  cd ..
+   57  ls
+   58  rmdir MyCodes/
+   59  ls
+   60  cp ./MyCodes/test.txt ./MyCodes/test2.txt
+   61  ls 
+   62  ls MyCodes/
+   63  rm -r ./MyCodes/
+   64  ls
+   65  echo 1 > test.txt 
+   66  ls
+   67  mkdir MyCodes
+   68  mv ./test.txt ./MyCodes/
+   69  ls
+   70  cd MyCodes/
+   71  mv ./test.txt ../
+   72  ls
+   73  ls ..
+   74  cat ../test.txt 
+   75  ls
+   76  cd ..
+   77  l
+   78  ls
+   79  rmdir MyCodes/
+   80  rm test.txt 
+   81  ls
+   82  clear
+   83  python version
+   84  --python 
+   85  python --version
+   86  python3 --version 
+   87  which python3
+   88  echo $PATH
+   89  ls
+   90  ls -a
+   91  ls
+   92  mkdir gitTest
+   93  cd gitTest/
+   94  ls
+   95  git init
+   96  git remote add origin https://github.com/hcsylvester/bds761/
+   97  git pull origin main 
+   98  ls
+   99  git config --global user.name 'hcsylvester'
+  100  git config --global user.email 'hunter.sylvester1109@gmail.com'
+  101  git add .
+  102  git add *.py
+  103  git status
+  104  git branch --list
+  105  git checkout main
+  106  ls
+  107  git status
+  108  git branch --list
+  109  git branch --delete master
+  110  git branch --list
+  111  git commit -m 'update'
+  112  git push origin main
+  113  ls
+  114  git branch --list
+  115  ls
+  116  history > history.txt
